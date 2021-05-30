@@ -317,6 +317,7 @@ int main()
             cin >> col;
 
             // this is for rectangle
+            cout<<"SIMPLE RECTANGLE\n";
             rectangle(row, col);
             break;
 
@@ -327,6 +328,7 @@ int main()
             cin >> col;
 
             // this is for hollow rectangle
+            cout<<"SIMPLE HOLLOW RECTANGLE\n";
             hollowRectangle(row, col);
             break;
 
@@ -346,6 +348,7 @@ int main()
             // INVERTED HALF PYRAMID AFTER 180 DEGREE ROTETION
             cout << "enter height of pyramid : ";
             cin >> height;
+            cout<<"INVERTED HALF PYRAMID BY 180deg ROTATION\n";
             inverted180(height);
 
             break;
@@ -353,6 +356,7 @@ int main()
         case 5:
 
             //    INVERTED HALF PYRAMID USING NUMBERS
+             cout<<"INVERTED HALF PYRAMID USING NUMBERS\n";
             cout << "enter height of pyramid : ";
             cin >> height;
             numberInverted(height);
@@ -364,6 +368,7 @@ int main()
             //  FLOYD'S PYRAMID
             cout << "enter height of pyramid : ";
             cin >> height;
+            cout<<"FLOYD'S PYRAMID\n";
             floyd(height);
 
             break;
@@ -373,7 +378,7 @@ int main()
             // butterfly pattern
             cout << "enter height of pyramid : ";
             cin >> height;
-
+            cout<<"BUTTERFLY PATTERN\n";
             butterFlyPattern(height);
 
             break;
@@ -387,28 +392,33 @@ int main()
         case 9:
             cout << "enter row number : ";
             cin >> row;
+            cout<<"ZERO ONE PATTERN\n";
             ZeroOnePattern(row);
             break;
 
         case 10:
             cout << "enter row number : ";
             cin >> row;
+            cout<<"RHOMBUS PATTERN\n";
             rhombusPattern(row);
             break;
         case 11:
             cout << "enter row number : ";
             cin >> row;
+            cout<<"NUMBER PATTERN\n";
             numberPattern(row);
             break;
         case 12:
             cout << "enter row number : ";
             cin >> row;
+            cout<<"PALINDROMIC PATTERN\n";
             palendromicPattern(row);
             break;
             break;
         case 13:
             cout << "enter row number : ";
             cin >> row;
+            cout<<"DIAMOND PATTERN\n";
             diamondStarPattern(row);
             break;
         case 14:
@@ -416,6 +426,7 @@ int main()
             cin >> row;
             cout << "enter column number : ";
             cin >> col;
+            cout<<"ZIG-ZAG PATTERN\n";
             ZigZag(row,col);
             break;
 
